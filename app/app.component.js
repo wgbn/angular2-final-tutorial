@@ -23,6 +23,9 @@ var AppComponent = (function () {
     AppComponent.prototype.onSelect = function (hero) {
         this.selectedHero = hero;
     };
+    AppComponent.prototype.ngOnInit = function () {
+        //
+    };
     AppComponent = __decorate([
         core_1.Component({
             selector: 'my-app',
