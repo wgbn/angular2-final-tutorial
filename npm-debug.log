@@ -1,6 +1,6 @@
 0 info it worked if it ends with ok
 1 verbose cli [ '/usr/bin/nodejs',
-1 verbose cli   '/home/walter/.npm-global/bin/npm',
+1 verbose cli   '/home/vivasalute/.npm-global/bin/npm',
 1 verbose cli   'start' ]
 2 info using npm@3.10.5
 3 info using node@v5.12.0
@@ -9,25 +9,25 @@
 6 silly lifecycle angular2-tutorial@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle angular2-tutorial@1.0.0~start: angular2-tutorial@1.0.0
 8 verbose lifecycle angular2-tutorial@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle angular2-tutorial@1.0.0~start: PATH: /home/walter/.npm-global/lib/node_modules/npm/bin/node-gyp-bin:/media/walter/ARQUIVOS/workspace/0-javascript/2-angular2/angular2-final-tutorial/node_modules/.bin:/usr/bin:/home/walter/.npm-global/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/walter/.composer/vendor/bin
-10 verbose lifecycle angular2-tutorial@1.0.0~start: CWD: /media/walter/ARQUIVOS/workspace/0-javascript/2-angular2/angular2-final-tutorial
+9 verbose lifecycle angular2-tutorial@1.0.0~start: PATH: /home/vivasalute/.npm-global/lib/node_modules/npm/bin/node-gyp-bin:/home/vivasalute/Workspace/0-javascript/1-angular2/angular2-final-tutorial/node_modules/.bin:/usr/bin:/opt/mono/bin:/home/vivasalute/.npm-global/bin:{/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/jvm/java-8-oracle/bin:/usr/lib/jvm/java-8-oracle/db/bin:/usr/lib/jvm/java-8-oracle/jre/bin:/home/vivasalute/Android/Sdk/tools:/home/vivasalute/Android/Sdk/platform-tools}:~/.composer/vendor/bin:/home/vivasalute/Android/Sdk/platform-tools:/home/vivasalute/Android/Sdk/tools/apps
+10 verbose lifecycle angular2-tutorial@1.0.0~start: CWD: /home/vivasalute/Workspace/0-javascript/1-angular2/angular2-final-tutorial
 11 silly lifecycle angular2-tutorial@1.0.0~start: Args: [ '-c', 'tsc && concurrently "npm run tsc:w" "npm run lite" ' ]
 12 silly lifecycle angular2-tutorial@1.0.0~start: Returned: code: 2  signal: null
 13 info lifecycle angular2-tutorial@1.0.0~start: Failed to exec start script
 14 verbose stack Error: angular2-tutorial@1.0.0 start: `tsc && concurrently "npm run tsc:w" "npm run lite" `
 14 verbose stack Exit status 2
-14 verbose stack     at EventEmitter.<anonymous> (/home/walter/.npm-global/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
+14 verbose stack     at EventEmitter.<anonymous> (/home/vivasalute/.npm-global/lib/node_modules/npm/lib/utils/lifecycle.js:242:16)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at EventEmitter.emit (events.js:185:7)
-14 verbose stack     at ChildProcess.<anonymous> (/home/walter/.npm-global/lib/node_modules/npm/lib/utils/spawn.js:40:14)
+14 verbose stack     at ChildProcess.<anonymous> (/home/vivasalute/.npm-global/lib/node_modules/npm/lib/utils/spawn.js:40:14)
 14 verbose stack     at emitTwo (events.js:100:13)
 14 verbose stack     at ChildProcess.emit (events.js:185:7)
 14 verbose stack     at maybeClose (internal/child_process.js:850:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
 15 verbose pkgid angular2-tutorial@1.0.0
-16 verbose cwd /media/walter/ARQUIVOS/workspace/0-javascript/2-angular2/angular2-final-tutorial
-17 error Linux 3.19.0-68-generic
-18 error argv "/usr/bin/nodejs" "/home/walter/.npm-global/bin/npm" "start"
+16 verbose cwd /home/vivasalute/Workspace/0-javascript/1-angular2/angular2-final-tutorial
+17 error Linux 4.4.0-36-generic
+18 error argv "/usr/bin/nodejs" "/home/vivasalute/.npm-global/bin/npm" "start"
 19 error node v5.12.0
 20 error npm  v3.10.5
 21 error code ELIFECYCLE
